@@ -1,14 +1,13 @@
-# vue-simple-boilerplate
+# vue-npm-template
 
-> The simplest possible Vue setup in a single HTML file
+> Scaffold a pre-configured template which will let you publish vue components to npm very fast/
 
-> This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init simple#1.0 my-project`
+> This template is Vue 2.0 compatible.
 
 ### Before You Start...
 
-This boilerplate is targeted at beginners who want to start exploring Vue without the distraction of a complicated development environment.
-
-For advanced features such as asset compilation, hot-reload, lint-on-save, unit testing, and CSS extraction, we recommend that more experienced developers use one of the [other templates](https://github.com/vuejs-templates/).
+This boilerplate is targeted at intermediate users who have knowledge of vue and npm modules.
+This template makes use of [POI](https://poi.js.org/#/) , [Bili](https://egoist.moe/bili/#/) to bundle the vue component.
 
 ## Usage
 
@@ -16,17 +15,11 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
 $ npm install -g vue-cli      # Install vue-cli if you haven't already
-$ vue init simple my-project  # Create a new project based on this template
+$ vue init cristijora/vue-npm-template  # Create a new project based on this template
 $ cd my-project               # Navigate into your new project folder
 
-$ npm install -g live-server  # Install live-server if you haven't already
-$ live-server                 # Run live-server and open it in your browser
-```
+$ npm install  # Install dependencies
+$ npm run dev  # Run development server on port 5000
+$ npm run build # Build your component for production
 
-### Fork It And Make Your Own
-
-You can [fork this repo](https://help.github.com/articles/fork-a-repo/) to create your own boilerplate, and use it with `vue-cli`:
-
-``` bash
-vue init username/repo my-project
 ```
