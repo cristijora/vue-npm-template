@@ -4,6 +4,8 @@
 
 > This template is Vue 2.0 compatible.
 
+For Sao version please check [vue-npm](https://github.com/cristijora/vue-npm)
+
 ### Before You Start...
 
 This boilerplate is targeted at intermediate users who have knowledge of vue and npm modules.
