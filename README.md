@@ -11,6 +11,8 @@ For Sao version please check [vue-npm](https://github.com/cristijora/vue-npm)
 This boilerplate is targeted at intermediate users who have knowledge of vue and npm modules.
 This template makes use of [POI](https://poi.js.org/#/) , [Bili](https://egoist.moe/bili/#/) to bundle the vue component.
 
+## Notes
+This template has makes use of `babel-preset-stage-2` which means you can use latest ES6 features without worries
 ## Usage
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
